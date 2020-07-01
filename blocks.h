@@ -8,6 +8,9 @@ static const Block blocks[] = {
 	{" ", "sensors | awk '/^temp1:/{print $2}'",				5,		0},
 
 	{" ", "~/.local/bin/statusbar/clock",						5,		0},
+
+	{" ", "~/.local/bin/statusbar/recording",						0,		10},
+
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
