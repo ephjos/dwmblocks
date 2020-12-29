@@ -7,7 +7,7 @@ static const Block blocks[] = {
 
 	{" ", "~/.local/bin/statusbar/battery",						5,		0},
 
-	{" ", "~/.local/bin/statusbar/temperature",				5,		0},
+	//{" ", "~/.local/bin/statusbar/temperature",				5,		0},
 
 	{" ", "~/.local/bin/statusbar/clock",						5,		0},
 
