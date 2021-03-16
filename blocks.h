@@ -1,17 +1,17 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{" ", "~/.local/bin/statusbar/whatsleft",						60,		0},
+	{" ", "sd bar whatsleft",						60,		0},
 
-	{" ", "~/.local/bin/statusbar/volume",						0,		10},
+	{" ", "sd bar volume",						0,		10},
 
-	{" ", "~/.local/bin/statusbar/battery",						5,		0},
+	{" ", "sd bar battery",						5,		0},
 
 	//{" ", "~/.local/bin/statusbar/temperature",				5,		0},
 
-	{" ", "~/.local/bin/statusbar/clock",						5,		0},
+	{" ", "sd bar clock",						5,		0},
 
-	{" ", "~/.local/bin/statusbar/recording",						0,		10},
+	{" ", "sd bar recording",						0,		10},
 
 };
 
