@@ -7,19 +7,19 @@ static const Block blocks[] = {
 
 	{" ", "sd bar traffic",						5,		0},
 
-	{" ", "sd bar battery",						5,		0},
-
-	{" ", "sd bar disk",				600,		0},
+	{" ", "sd bar internet",						30,		0},
 
 	{" ", "sd bar cpu_load",				1,		0},
 
+	{" ", "sd bar memory",						5,		0},
+
 	{" ", "sd bar temperature",				5,		0},
 
-	{" ", "sd bar internet",						30,		0},
+	{" ", "sd bar disk",				600,		0},
+
+	{" ", "sd bar battery",						5,		0},
 
 	{" ", "sd bar clock",						5,		0},
-
-	{" ", "sd bar recording",						0,		10},
 
 };
 
